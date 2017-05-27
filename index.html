@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<meta charset="UTF-8">
+<body>
+	<div class="main">
+		<ul>
+			<li><a href="web/index.html">Перейти в веб приложение</a></li>
+			<li><a href="android-armv7-debug.apk">Скачать android arm v7</a></li>
+			<li><a href="android-x86-debug.apk">Скачать android x86</a></li>
+		</ul>
+		<iframe class="device" src="web/index.html" width="375" height="667"></iframe>
+		<style>
+			iframe.device {
+				border: 5px solid #f8f8f8;
+				border-radius: 10px;
+				box-shadow: 1px 1px 13px #a7a7a7;
+			}
+			.main {
+				margin: 0 auto;
+				width: 375px;
+			}
+			.main > ul {
+				list-style-type: none;
+			}
+		</style>
+	</div>
+</body>
